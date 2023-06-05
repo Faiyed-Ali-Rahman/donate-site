@@ -31,6 +31,14 @@ p,button{
 .btn-primary:hover{
     background:#FF5959;
 }
+.btn-secondary{
+    background:#FF5959;
+    border-radius: 5px;
+    padding: 16px 21px;
+}
+.btn-secondary:hover{
+    background: #FF5959;
+}
 /* banner section css */
 .banner{
     background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(../img/banner.png) no-repeat center top;
@@ -149,15 +157,46 @@ p,button{
     background: #FFF4D6;
     padding-bottom: 54px;
 }
+/* depend section css */
 .depend{
-    
+    margin-top: 130px;
+}
+.depend .depend-left{
+    margin-top: 50px;
 }
 .depend .depend-left h1{
-    
+    margin-bottom: 20px;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
 }
 .depend .depend-left p{
-
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
 }
 .depend .depend-left button{
+    margin-top: 30px;
+}
 
+/* survive section css */
+.survive{
+    margin-top: 100px;
+}
+.survive .survive-right{
+    margin-top: 20px;
+}
+.survive .survive-right h1{
+    margin-bottom: 20px;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+.survive .survive-right p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+}
+.survive .survive-right button{
+    margin-top: 30px;
 }
