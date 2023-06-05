@@ -18,9 +18,15 @@ p,button{
 }
 .style-text-heading{
     font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
 }
 .style-text-prgrph{
     font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
 }
 .btn-primary{
     display: block;
@@ -199,4 +205,55 @@ p,button{
 }
 .survive .survive-right button{
     margin-top: 30px;
+}
+/* update section css */
+.update{
+    margin-top: 130px;
+}
+.update h1{
+    margin-bottom: 20px;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+.update p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    width: 700px;
+    margin: auto;
+}
+.update-by-email{
+    background: #FFF4D6;
+    width:800px;
+    margin: auto;
+    padding: 78px 0;
+    padding-left:189px ;
+    margin-top: 50px;
+}
+.update-by-email input{
+    border: none;
+    background: #D9D9D9;
+    width: 275px;
+    height:48px;
+}
+.update-by-email ::placeholder{
+    color:#AA9F9F;
+    padding-left:17px ;
+    font-size: 16px;
+}
+.update-by-email  a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 14px 42px;
+    background: #FF5959;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+/* footer section css */
+footer{
+    margin-top: 130px;
+    background: #0B0D17;
+    padding: 43px 0;
 }
