@@ -47,7 +47,7 @@ p,button{
 }
 /* banner section css */
 .banner{
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(../img/banner.png) no-repeat center top;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(../img/banner.png) no-repeat center;
     background-size: cover;
     padding: 175px 0;
 }
@@ -65,6 +65,15 @@ p,button{
 }
 .banner button{
     margin: auto;
+}
+@media (min-width: 320px) and (max-width: 700px){
+    .banner h1{
+        font-size: 32px;
+    }
+
+    .banner p{
+        width: auto;
+       }
 }
 /* donate-today section css */
 .donate-today{
@@ -117,6 +126,20 @@ p,button{
     background: #DADADA;
     margin: 0 auto;
     margin-bottom: 30px;
+}
+@media (min-width: 320px) and (max-width: 991px){
+    h1{
+        font-size: 32px;
+    }
+    p{
+        width:auto;
+    }
+    .donate-today p{
+        width: auto;
+    }
+    .donate-today .border{
+        width: 300px;
+    }
 }
 /* donate plan section css */
 .donate-plan{
@@ -184,7 +207,11 @@ p,button{
 .depend .depend-left button{
     margin-top: 30px;
 }
-
+@media (min-width:320px) and (max-width:991px){
+    .depend img{
+        width:95%;
+    }
+}
 /* survive section css */
 .survive{
     margin-top: 100px;
@@ -205,6 +232,11 @@ p,button{
 }
 .survive .survive-right button{
     margin-top: 30px;
+}
+@media (min-width:320px) and (max-width:991px){
+    .survive img{
+        width:95%;
+    }
 }
 /* update section css */
 .update{
@@ -251,9 +283,35 @@ p,button{
     font-weight: 500;
     margin-left: -3px;
 }
+@media (min-width:320px) and (max-width: 991px){
+    .update h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .update p{
+        font-size: 16px;
+        width: auto;
+    }
+    .update-by-email{
+        width:auto;
+        padding: 50px 0;
+    }
+    .update-by-email  a{
+        padding: 13px 20px;
+        font-weight: 400;
+        margin-left: -3px;
+    }
+}
 /* footer section css */
 footer{
     margin-top: 130px;
     background: #0B0D17;
     padding: 43px 0;
+}
+
+@media (min-width:320px) and (max-width: 991px){
+    .depend .depend-left button{
+        margin-bottom: 20px;
+    }
 }
