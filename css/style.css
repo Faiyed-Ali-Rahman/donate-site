@@ -260,7 +260,7 @@ p,button{
     width:800px;
     margin: auto;
     padding: 78px 0;
-    padding-left:189px ;
+    padding-left:80px ;
     margin-top: 50px;
 }
 .update-by-email input{
@@ -298,9 +298,15 @@ p,button{
         padding: 50px 0;
     }
     .update-by-email  a{
-        padding: 13px 20px;
+        padding: 7px 10px;
         font-weight: 400;
-        margin-left: -3px;
+    }
+
+    .update-by-email input{
+        border: none;
+        background: #D9D9D9;
+        width: 140px;
+        height:36px;
     }
 }
 /* footer section css */
